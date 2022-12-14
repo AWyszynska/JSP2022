@@ -28,7 +28,7 @@ liczby = {
     '1000' : 'tysiac',
     }
 a = input()
-l = len(a)
+
 
 def funkcja(x):
     l = len(x)

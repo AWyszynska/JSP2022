@@ -26,7 +26,7 @@ def funk(d):
                     x = slownik['jeden']
                     y = slownik[key]
                     return (str(x)+str(y))
-                    return(result)
+                    
     if a[-8:-3] ==("dzies") or a[-7:-3]==("dzie"):
         for j in slownik.items():
             for key in slownik.keys():
@@ -34,6 +34,7 @@ def funk(d):
                     z = slownik[key]
                     v = slownik['zero']
                     return(str(z)+str(v))
+                    
     if l>=14:
         for j in slownik.items():
             for key in slownik.keys():
@@ -41,6 +42,6 @@ def funk(d):
                     if d[-4:-1] in key and d[:3] in k in slownik.keys():
                         i = slownik[k]
                         t = slownik[key]
-                        return[str(i)+str(t)]
+                        return(str(i)+str(t))
 
 print(funk(a))
