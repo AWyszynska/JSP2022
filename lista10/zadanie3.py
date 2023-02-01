@@ -1,10 +1,10 @@
 from itertools import combinations
 class tablica():
-    lista = []
+    l = []
     def __init__(self, l):
         self.l = l
 
-    def trzymEl(self):
+    def tablica(self):
         k = list(combinations(self.l, 3))
         w = []
         for i in k:
@@ -12,5 +12,5 @@ class tablica():
                 w.append(list(i))
         return w
 
-tt = tablica([1, -3, 4, 1, 2, 0, 7, 2, 5, -2, -4, -1])
+tt = tablica([1, 2,-3,4,5,-9])
 print(tt.tablica())
